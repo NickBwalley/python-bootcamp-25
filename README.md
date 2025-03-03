@@ -1,18 +1,23 @@
 ## CMD Tools
 
-- Create Virtual Environment:
+- Create Virtual Environment and Activate using Anaconda (recommended )
+- Note: Anaconda must be installed
 
 ```
 conda create -p venv python==3.12
-```
-
-- Activate Environment:
-
-```
 conda activate venv/
+
 ```
 
-- Install ipykernel:
+- Create Virtual Environment and Activate using Python
+
+```
+python -m venv [folder_name]
+[folder_name]\Scripts\activate
+
+```
+
+- Install ipykernel for .ipynb to run
 
 ```
 pip install ipykernel
