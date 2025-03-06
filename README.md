@@ -29,8 +29,8 @@ pip install ipykernel
 pip list
 ```
 
-- Generate requirements.txt:
+- Download all packages inside the requirements.txt:
 
 ```
-pip freeze > requirements.txt
+pip install -r requirements.txt
 ```
