@@ -3,7 +3,7 @@ import os
 def create_new_dir():
     # Get the directory where the script is being run
     root_dir = os.getcwd()  # Gets the current working directory
-    dir_name = "7-Exception-Handling"  # Name of the new folder
+    dir_name = "9-Advance-Python-Concepts"  # Name of the new folder
 
     # Define the new folder path
     new_folder_path = os.path.join(root_dir, dir_name)
