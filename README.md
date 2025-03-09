@@ -39,5 +39,5 @@ pip install -r requirements.txt
 #### Running Streamlit on webbrowser localhost
 
 ```
-streamlit run app.py
+streamlit run yourscript.py
 ```
