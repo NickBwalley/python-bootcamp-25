@@ -1,7 +1,8 @@
-## CMD Tools
+## Terminal CMDs
 
-- Create Virtual Environment and Activate using Anaconda (recommended )
-- Note: Anaconda must be installed
+#### Create Virtual Environment and Activate using Anaconda (recommended )
+
+- **Note:** Anaconda must be installed
 
 ```
 conda create -p venv python==3.12
@@ -9,7 +10,7 @@ conda activate venv/
 
 ```
 
-- Create Virtual Environment and Activate using Python
+#### Create Virtual Environment and Activate using Python
 
 ```
 python -m venv [folder_name]
@@ -17,20 +18,26 @@ python -m venv [folder_name]
 
 ```
 
-- Install ipykernel for .ipynb to run
+#### Install ipykernel for .ipynb to run
 
 ```
 pip install ipykernel
 ```
 
-- List Installed Packages:
+#### List Installed Packages:
 
 ```
 pip list
 ```
 
-- Download all packages inside the requirements.txt:
+#### Download all packages inside the requirements.txt:
 
 ```
 pip install -r requirements.txt
+```
+
+#### Running Streamlit on webbrowser localhost
+
+```
+streamlit run app.py
 ```
