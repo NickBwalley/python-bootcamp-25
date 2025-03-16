@@ -3,7 +3,7 @@ import os
 def create_new_dir():
     # Get the directory where the script is being run
     root_dir = os.getcwd()  # Gets the current working directory
-    dir_name = "10-Data-Analysis-With-Python"  # Name of the new folder
+    dir_name = "11-Working-with-Databases"  # Name of the new folder
 
     # Define the new folder path    
     new_folder_path = os.path.join(root_dir, dir_name)
