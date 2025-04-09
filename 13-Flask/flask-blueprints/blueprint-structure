@@ -1,0 +1,45 @@
+my_app/
+├── app.py              # Main application file
+├── config.py           # Configuration settings
+├── requirements.txt    # Project dependencies
+├── static/             # Static files (CSS, JS, images)
+├── templates/          # Global templates
+│   ├── base.html
+│   └── index.html
+└── blueprints/         # Blueprint modules
+    ├── auth/           # Authentication blueprint
+    │   ├── __init__.py
+    │   ├── forms.py
+    │   ├── models.py
+    │   ├── routes.py
+    │   ├── static/
+    │   └── templates/
+    │       ├── login.html
+    │       └── register.html
+    └── admin/          # Admin dashboard blueprint
+        ├── __init__.py
+        ├── forms.py
+        ├── models.py
+        ├── routes.py
+        ├── static/
+        └── templates/
+            ├── dashboard.html
+            └── users.html
+
+; Real-world Example: E-commerce Application
+; Let's see how blueprints can be used in a larger e-commerce application:
+
+ecommerce_app/
+├── app.py
+├── config.py
+├── extensions.py       # Shared Flask extensions
+├── models/             # Database models
+├── static/
+├── templates/
+└── blueprints/
+    ├── auth/           # User authentication
+    ├── products/       # Product catalog
+    ├── cart/           # Shopping cart
+    ├── checkout/       # Checkout process
+    ├── admin/          # Admin dashboard
+    └── api/            # REST API
